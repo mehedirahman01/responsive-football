@@ -292,11 +292,10 @@ footer p{
 /* Media Queries */
 
 /* For Mobile Device */
-@media only screen and (max-width:688px){
+@media only screen and (max-width:480px){
    
-    header{
-        width: 100%;
-        padding: 0px 0px 0px 16px;
+    header{   
+        padding: 0px 0px 0px 6px;
     }
     nav{
         display: none;
@@ -304,6 +303,8 @@ footer p{
 
     .top-banner{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         
     }
 
@@ -314,20 +315,31 @@ footer p{
         line-height: 50px;
     }
 
+
+
     .banner-right{
         padding: 0;
     }
 
     .banner-right img{
         height: 260px;
-        width: 329px;
+        width: 290px;
     }
+    
 
     .players{
         grid-template-columns: repeat(1,1fr);
         padding: 47px 15px;
         grid-row-gap: 24px;
     }
+
+    .player-info p{
+        font-size: 16px;
+        font-weight: 400;
+        text-align:left ;
+        color: #6C6C6C;
+    }
+    
 
     .latest-match-section{
         display: none;
