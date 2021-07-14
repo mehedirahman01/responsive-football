@@ -312,6 +312,10 @@ footer p{
         
     }
 
+    .banner-left{
+        margin-top: 50px;
+    }
+
     .banner-left h1{
         font-size: 36px;
         font-weight: 700;
