@@ -297,6 +297,7 @@ footer p{
     header{   
         padding: 0px 0px 0px 6px;
     }
+
     nav{
         display: none;
     }
@@ -315,8 +316,6 @@ footer p{
         line-height: 50px;
     }
 
-
-
     .banner-right{
         padding: 0;
     }
@@ -326,7 +325,6 @@ footer p{
         width: 290px;
     }
     
-
     .players{
         grid-template-columns: repeat(1,1fr);
         padding: 47px 15px;
@@ -340,7 +338,6 @@ footer p{
         color: #6C6C6C;
     }
     
-
     .latest-match-section{
         display: none;
     }
@@ -348,6 +345,7 @@ footer p{
     .gallery-section{
         display: none;
     }
+    
     footer img{
         width: 275px;
         height: 63px;
